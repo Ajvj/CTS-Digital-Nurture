@@ -1,0 +1,26 @@
+Responsive Web Design with Media Queries
+/* Default desktop layout */
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  body {
+    font-size: 90%;
+  }
+
+  h1, h2 {
+    font-size: 1.2rem;
+  }
+}

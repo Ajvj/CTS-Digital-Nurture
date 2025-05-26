@@ -1,0 +1,10 @@
+Exercise 16.1 – Fixed Footer
+<footer class="bg-dark text-white text-center position-fixed bottom-0 w-100">
+  Fixed Footer
+</footer>
+
+Exercise 16.2 – Badge Over Image
+<div class="position-relative">
+  <img src="img.jpg" width="200">
+  <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">New</span>
+</div>

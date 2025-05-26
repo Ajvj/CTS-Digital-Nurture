@@ -1,0 +1,16 @@
+Exercise 4.1 – Sidebar + Content
+<div class="container">
+  <div class="row">
+    <div class="col-md-3 bg-light">Sidebar</div>
+    <div class="col-md-9 bg-white">Content Area</div>
+  </div>
+</div>
+Exercise 4.2 – 4 Equal Columns
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3 bg-primary">1</div>
+    <div class="col-sm-3 bg-secondary">2</div>
+    <div class="col-sm-3 bg-success">3</div>
+    <div class="col-sm-3 bg-danger">4</div>
+  </div>
+</div>

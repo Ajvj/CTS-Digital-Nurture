@@ -1,0 +1,26 @@
+<body>
+    <h1>Community Event Portal</h1>
+  
+    <input id="searchInput" placeholder="Search event by name" />
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      <option value="Music">Music</option>
+      <option value="Technology">Technology</option>
+      <option value="Art">Art</option>
+    </select>
+  
+    <div id="eventsContainer"></div>
+    <div id="loader" style="display:none;">Loading...</div>
+  
+    <h2>Event Registration</h2>
+    <form id="registerForm">
+      <input name="name" placeholder="Your Name" required />
+      <input name="email" placeholder="Your Email" type="email" required />
+      <select name="event">
+        <option value="Music Fest">Music Fest</option>
+        <option value="Art Show">Art Show</option>
+      </select>
+      <button type="submit" id="registerBtn">Submit</button>
+    </form>
+  </body>
+  

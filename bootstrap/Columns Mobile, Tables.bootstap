@@ -1,0 +1,8 @@
+Exercise 3.1 – 3 Columns: Mobile, Tablet, Desktop
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-6 col-md-4 bg-primary text-white">Column 1</div>
+    <div class="col-12 col-sm-6 col-md-4 bg-secondary text-white">Column 2</div>
+    <div class="col-12 col-sm-6 col-md-4 bg-success text-white">Column 3</div>
+  </div>
+</div>

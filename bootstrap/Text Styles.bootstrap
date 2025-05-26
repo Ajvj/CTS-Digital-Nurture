@@ -1,0 +1,10 @@
+Exercise 7.1 – Text Styles
+<h1 class="display-1">Big Heading</h1>
+<p class="lead">Lead paragraph text</p>
+<p class="text-muted">Muted text</p>
+<p class="fw-bold">Bold text</p>
+
+Exercise 7.2 – Text Transform
+<p class="text-uppercase">uppercase</p>
+<p class="text-lowercase">LOWERCASE</p>
+<p class="text-capitalize">capitalize each word</p>

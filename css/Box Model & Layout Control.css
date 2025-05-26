@@ -1,0 +1,20 @@
+Box Model & Layout Control
+.eventCard {
+  border: 2px solid #aaa;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Form field highlight */
+input:focus {
+  outline: 2px solid #007BFF;
+}
+
+/* Visibility vs. Display */
+.hidden-element {
+  visibility: hidden; /* Occupies space */
+}
+
+.none-element {
+  display: none; /* Does NOT occupy space */
+}

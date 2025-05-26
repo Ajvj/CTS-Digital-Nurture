@@ -1,0 +1,31 @@
+<style>
+  form {
+    background: #f2f2f2;
+    padding: 20px;
+    width: 300px;
+  }
+</style>
+
+<form onsubmit="displayMessage(); return false;">
+  <input type="text" name="name" placeholder="Your Name" required autofocus><br><br>
+  <input type="email" name="email" placeholder="Your Email" required><br><br>
+  <input type="date" name="date" required><br><br>
+
+  <select name="eventType" required>
+    <option value="">Choose an event</option>
+    <option value="music">Music Night</option>
+    <option value="tech">Tech Meetup</option>
+  </select><br><br>
+
+  <textarea name="message" placeholder="Any message?"></textarea><br><br>
+
+  <button type="submit">Register</button>
+
+  <output id="confirmation"></output>
+</form>
+
+<script>
+  function displayMessage() {
+    document.getElementById("confirmation").textContent = "Registration submitted successfully!";
+  }
+</script>

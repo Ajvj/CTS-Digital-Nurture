@@ -1,0 +1,10 @@
+Exercise 9.1 – All Button Types
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-secondary">Secondary</button>
+<button class="btn btn-outline-danger">Outline Danger</button>
+
+Exercise 9.2 – Button Group & Toggle
+<div class="btn-group" role="group">
+  <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+  <label class="btn btn-outline-primary" for="btncheck1">Check 1</label>
+</div>

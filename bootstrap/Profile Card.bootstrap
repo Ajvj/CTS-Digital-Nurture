@@ -1,0 +1,17 @@
+Exercise 11.1 – Profile Card
+<div class="card" style="width: 18rem;">
+  <img src="profile.jpg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">Ajay</h5>
+    <p class="card-text">Data Science Intern</p>
+  </div>
+</div>
+
+Exercise 11.2 – Media Object
+<div class="d-flex">
+  <img src="avatar.png" class="me-3" style="width: 64px;">
+  <div>
+    <h5>Title</h5>
+    <p>Content aligned next to image</p>
+  </div>
+</div>

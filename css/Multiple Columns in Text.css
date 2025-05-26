@@ -1,0 +1,14 @@
+ Multiple Columns in Text
+<section class="news">
+  <h2>Community Bulletin</h2>
+  <div class="article">
+    <p>Lorem ipsum dolor sit amet...</p>
+  </div>
+</section>
+
+css
+.article {
+  column-count: 2;
+  column-gap: 30px;
+  column-rule: 1px solid gray;
+}

@@ -1,0 +1,14 @@
+Color & Background Styling
+body {
+  background: url('cityscape.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: #e0e0e0; /* Fallback */
+  color: rgba(33, 33, 33, 0.9);
+}
+
+/* Gradient for section headers */
+section h2 {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: white;
+  padding: 10px;
+}

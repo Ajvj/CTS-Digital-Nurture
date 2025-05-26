@@ -1,0 +1,9 @@
+Exercise 5.1 – Center Items
+<div class="row justify-content-center align-items-center" style="height: 200px;">
+  <div class="col-4 bg-info text-white text-center">Centered</div>
+</div>
+Exercise 5.2 – Reorder Columns
+<div class="row">
+  <div class="col-md-6 order-md-2 bg-warning">First on mobile, Second on desktop</div>
+  <div class="col-md-6 order-md-1 bg-info">Second on mobile, First on desktop</div>
+</div>

@@ -1,0 +1,6 @@
+Exercise 14.1 – Show/Hide Sections
+<div class="d-none d-md-block">Visible on medium and up</div>
+<div class="d-lg-flex">Flex only on large screens</div>
+
+Exercise 14.2 – Tablet Sidebar
+<div class="d-none d-md-block col-md-3 bg-secondary">Sidebar</div>

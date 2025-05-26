@@ -1,0 +1,13 @@
+Exercise 19.1 – Setup with Sass
+Install Node and run:
+
+npm install bootstrap
+Import in SCSS file:
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+Exercise 19.2 – Customize Colors
+$primary: #ff5722;
+$border-radius: 1rem;
+
+@import "node_modules/bootstrap/scss/bootstrap";
